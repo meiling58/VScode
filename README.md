@@ -2,6 +2,12 @@
 This repo will including all basic knowledge of VScode. 
 - README file will document all details
 - sample code for tesing on local
+## How to test on local
+1. clone the repo to your local machine.
+2. open the repo in VScode
+3. Go to each {name}Project/ and run testing code
+    * JavaProject: `run java` on hello_world.java, check `images\helloWorld_java.png` for result
+    * PythonProject: `run python file in terminal` on hello_world.py, check `images\helloWorld_python.png` for result
 # VScode
 VS Code is a workspace which collected one or more folders. Most of the time, having a single folder opened as the workspace. VScode is not a IDE, is a text editor.
 
