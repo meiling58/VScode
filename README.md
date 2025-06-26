@@ -1,3 +1,7 @@
+# Overiew
+This repo will including all basic knowledge of VScode. 
+- README file will document all details
+- sample code for tesing on local
 # VScode
 VS Code is a workspace which collected one or more folders. Most of the time, having a single folder opened as the workspace. VScode is not a IDE, is a text editor.
 
@@ -11,6 +15,25 @@ You can use Visual Studio Code to build any kind of app, for web, desktop, and m
 
 ## VScode Install
 [Download Link](https://code.visualstudio.com/download)
+
+## .vscode/ folder
+.vscode/ folder is used to store workspace-specific settings. likes:
+- `settings.json` project specific settings. 
+- `launch.json` debug configuration
+- `tasks.json` shared tasks and build commands
+- `extensions.json` project specific extensions in
+### how to set up/modify the setting
+- Press `F1` or `go to ->view->command palette` or `Ctrl+Shift+P`
+- type `user settings` and select `Preferences: Open User Settings`
+- Settings will open
+- 2 types of settings, User or Workspace
+    - User setting : global settings.json file and is applied to all projects(workspaces) of the current user.
+    - Workspace: setting written to your `.vscode/seetings.json` file 
+### Should commit .vsccode directory to scource control
+Depending on what you want to share or not to team members.
+
+
+
 
 ## VScode/Java
 ### Java Conigure

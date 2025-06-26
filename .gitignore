@@ -1,0 +1,12 @@
+# ignore all .vscode files
+.vscode
+
+# ignore all files in the {temp} directore
+temp/
+result/
+
+# ignore all files with .log extension
+*.log
+
+
+
